@@ -1,0 +1,39 @@
+.hero-wrapper {
+  padding: 2rem 5rem;
+  font-family: var(--ff-primary);
+  flex-direction: column;
+  max-width: 60vw;
+  margin-inline: auto;
+}
+
+.hero .hello {
+  font-family: var(--ff-secondary);
+  color: var(--clr-highlights);
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+.hero .name {
+  font-size: 7rem;
+  font-weight: 700;
+  color: var(--clr-secondary);
+}
+
+.hero .promisse {
+  font-size: 6rem;
+  font-weight: 700;
+  color: var(--clr-primary);
+  margin-bottom: 2rem;  
+}
+
+.hero p span {
+  color: var(--clr-secondary);
+  font-weight: 600;
+}
+
+.hero p {
+  color: var(--clr-primary);
+  font-size: 1.6rem;
+  line-height: 1.6;
+  max-width: 70%;
+}

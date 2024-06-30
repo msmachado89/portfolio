@@ -1,0 +1,26 @@
+:root {
+  --clr-bg: #0a192f;
+  --clr-card: #112240;
+  --clr-primary: #8892b0;
+  --clr-secondary: #ccd6f6;
+  --clr-terciary: #a8b2d1;
+  --clr-highlights: #64ffda;
+  --ff-primary: "Inter", sans-serif;
+  --ff-secondary: "Roboto Mono", "Fira Code", "Fira Mono", monospace;
+
+
+
+  --mobile-padding: 30px;
+}
+
+font-family: "Inter", sans-serif;
+ font-family: "Roboto Mono", monospace;
+ font-family: "Fira Mono", monospace;
+  font-family: "Fira Code", monospace;
+
+
+FONT-FAMILY
+Calibre, Inter, "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;
+
+FONT-FAMILY
+"SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;

@@ -1,0 +1,7 @@
+.about-wrapper {
+  padding: 2rem 5rem;
+  font-family: var(--ff-primary);
+  flex-direction: column;
+  max-width: 60vw;
+  margin-inline: auto;
+}

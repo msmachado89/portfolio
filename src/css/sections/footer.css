@@ -1,0 +1,13 @@
+.footer .socials{
+  flex-direction: column;
+}
+
+.footer ul li a i {
+  color: var(--clr-primary);
+  font-size: 3rem;
+
+}
+
+/* .socials span {
+  border: 1px solid red;
+} */

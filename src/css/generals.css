@@ -1,0 +1,28 @@
+html {
+  font-size: 62.5%;
+  
+}
+
+body {
+  background-color: var(--clr-bg);
+  color: white;
+  font-family: var(--ff-primary);
+  
+}
+
+header img {
+  width: 5rem;
+}
+
+.row {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
