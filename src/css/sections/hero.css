@@ -19,11 +19,33 @@
   color: var(--clr-secondary);
 }
 
-.hero .promisse {
+.hero .punch {
+  font-family: var(--ff-secondary);
   font-size: 6rem;
   font-weight: 700;
-  color: var(--clr-primary);
-  margin-bottom: 2rem;  
+  margin-bottom: 2rem;
+
+  color: transparent;
+  -webkit-text-stroke: 1px var(--clr-highlights);
+  position: relative;
+}
+
+.hero .punch::before {
+  content: "Eu crio sites inesquecíveis.";
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  overflow: hidden;
+  color: var(--clr-highlights);
+  border-right: 2px solid var(--clr-highlights);
+  transition: all 1.2s ease-in-out;
+  left: -10px;
+}
+
+.hero .punch:hover::before {
+  left: 0;
+  width: 100%;
+  filter: drop-shadow(0 0 10px var(--clr-highlights));
 }
 
 .hero p span {
@@ -33,7 +55,11 @@
 
 .hero p {
   color: var(--clr-primary);
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   line-height: 1.6;
   max-width: 70%;
+}
+
+.hero .promisse {
+  /* max-width: 60%; */
 }

@@ -1,0 +1,37 @@
+.socials {
+  /* align-items: center; */
+  flex-direction: column;
+  position: fixed;
+  z-index: 2;
+  bottom: 0;
+  left: 60px;
+}
+
+.socials ul li {
+  margin-bottom: 3.2rem;
+}
+
+
+
+.socials ul li a i {
+  color: var(--clr-primary);
+  font-size: 2.6rem;
+  
+}
+
+.socials .line {
+  display: block;
+  width: 1px;
+  height: 100px;
+  background-color: var(--clr-primary);
+}
+
+.socials ul li a i {
+  transition: color 0.3s ease-in-out, transform 0.3s ease;
+  
+}
+
+.socials ul li a i:hover {
+  transform: translateY(-5px);
+  color: var(--clr-highlights);
+}
