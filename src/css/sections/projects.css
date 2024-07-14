@@ -1,0 +1,35 @@
+.projects-wrapper {
+  padding: 2rem 5rem;
+  font-family: var(--ff-primary);
+  flex-direction: column;
+  max-width: 60vw;
+  margin-inline: auto;
+  margin-bottom: 30rem;
+}
+
+.projects .section-title {
+  font-family: var(--ff-primary);
+  color: var(--clr-secondary);
+  font-size: 2.4rem;
+  font-weight: 500;
+  display: inline;
+
+}
+
+.projects .mini-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 3rem;
+  /* justify-content: space-between; */
+}
+
+.projects .line {
+  display: inline-block;
+  width: 50%;
+  height: 1px;
+  /* background-color: red; */
+  background-color: var(--clr-primary);
+}
+

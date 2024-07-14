@@ -4,13 +4,146 @@
   flex-direction: column;
   max-width: 60vw;
   margin-inline: auto;
-  display: none;
+  margin-bottom: 30rem;
 }
 
-.about .about-me {
+.about .section-title {
+  font-family: var(--ff-primary);
+  color: var(--clr-secondary);
+  font-size: 2.4rem;
+  font-weight: 500;
+  display: inline;
+
+}
+
+.about .mini-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 3rem;
+  /* justify-content: space-between; */
+}
+
+.about .line {
+  display: inline-block;
+  width: 50%;
+  height: 1px;
+  /* background-color: red; */
+  background-color: var(--clr-primary);
+}
+
+/* .about .about-me {
+  font-family: var(--ff-primary);
   color: var(--clr-primary);
-  font-size: 1.6rem;
+  font-size: 1.8rem;
+  font-weight: 500;
   line-height: 1.6;
   max-width: 70%;
-  margin-bottom: 70rem;
+ 
+} */
+
+.about span {
+  color: var(--clr-secondary);
+  font-weight: 500;
 }
+
+.about figure {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 5rem;
+}
+
+.about figure .photo {
+  width: 18vw;
+  display: inline-block;
+  border-radius: 10px;
+  align-self: flex-start;
+
+ }
+
+.about figure .text {
+  display: inline-block;
+}
+
+.about figure p {
+  margin-bottom: 2rem;
+  color: var(--clr-primary);
+  font-size: 1.8rem;
+  line-height: 1.6;
+  /* max-width: 70%; */
+  /* max-width: calc(100% - 18vw - 20px); Calculate maximum width for text */
+}
+
+.about a {
+  text-decoration: none;
+  color: var(--clr-highlights);
+  font-weight: 500;
+
+  border-bottom: 2px solid transparent;
+  background-image: linear-gradient(
+    to right,
+    var(--clr-highlights),
+    var(--clr-highlights) 50%,
+    var(--clr-highlights) 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 0.2rem 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+.about a::before {
+  content: "";
+  background: var(--clr-highlights);
+  display: block;
+  position: absolute;
+  bottom: -0.125rem;
+  left: 0;
+  width: 0;
+  height: 0.125rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.about a:hover {
+  background-position: 0;
+}
+
+.about a:hover::before {
+  width: 100%;
+}
+
+.about table {
+  border-collapse: collapse;
+}
+
+.about table .techs {
+  padding-inline: 3rem;
+}
+
+.about table .techs {
+  color: var(--clr-highlights);
+  font-family: var(--ff-secondary);
+  font-size: 1.8rem;
+  line-height: 1.6;
+}
+
+
+.about .ts-icon {
+  width: 1.8rem;
+  display: inline;
+}
+
+.about .ts-tech {
+  display: flex;
+  align-items: center;
+}
+
+.about table .techs i, .about table .techs .ts-icon {
+  margin-right: 2rem;
+}
+

@@ -4,6 +4,7 @@
   flex-direction: column;
   max-width: 60vw;
   margin-inline: auto;
+  margin-bottom: 30rem;
 }
 
 .hero .hello {
@@ -62,4 +63,27 @@
 
 .hero .promisse {
   /* max-width: 60%; */
+}
+
+.hero .btn-hero {
+  width: fit-content;
+  margin-top: 5rem;
+  padding: 2rem 5rem;
+  font-family: var(--ff-secondary);
+  /* font-size: clamp(1rem, 5vw, 2rem); */
+  font-size: 2rem;
+  font-weight: 500;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  user-select: none;
+  color: var(--clr-highlights);
+  background-color: var(--clr-bg);
+  border: 2px solid var(--clr-highlights);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero .btn-hero:hover {
+  cursor: pointer;
+  transform: translate(-5px, -5px);
+  box-shadow: 5px 5px 0 var(--clr-highlights); /* Same color as border */
 }
