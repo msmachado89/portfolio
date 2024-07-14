@@ -4,7 +4,7 @@
   flex-direction: column;
   max-width: 60vw;
   margin-inline: auto;
-  margin-bottom: 25rem;
+  margin-bottom: 15rem;
   display: flex;
 }
 
@@ -37,7 +37,7 @@
 .contact h4 {
   color: var(--clr-highlights);
   font-family: var(--ff-secondary);
-  font-size: 3.4rem;
+  font-size: 5rem;
   font-weight: 700;
   align-self: center;
   margin-bottom: 2rem;
@@ -56,6 +56,32 @@
   color: var(--clr-secondary);
   font-weight: 500;
 }
+
+.socials-end {
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: row;
+  gap: 7rem;
+  justify-content: center;
+  font-size: 6rem;
+}
+
+.socials-end a {
+  text-decoration: none;
+  color: var(--clr-secondary);
+}
+
+
+
+.socials-end i {
+  transition: color 0.3s ease-in-out, transform 0.3s ease;
+}
+
+.socials-end i:hover {
+  transform: translateY(-5px);
+  color: var(--clr-highlights);
+ }
+
 
 
 
