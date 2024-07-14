@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="src/css/sections/header.css" />
     <link rel="stylesheet" href="src/css/sections/hero.css" />
     <link rel="stylesheet" href="src/css/sections/about.css" />
+    <link rel="stylesheet" href="src/css/sections/projects.css" />
+    <link rel="stylesheet" href="src/css/sections/contact.css" />
     <link rel="stylesheet" href="src/css/sections/footer.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -47,6 +49,10 @@
         <li>
           <a href=""><i class="fab fa-instagram"></i></a>
         </li>
+        <li>
+          <a href=""><i class="fas fa-envelope"></i></i></a>
+        </li>
+       
         <li>
           <a href=""><i class="fab fa-whatsapp"></i></a>
         </li>
@@ -102,7 +108,7 @@
       </section>
 
       <!-- ===== About ===== -->
-      <section class="about">
+      <section class="about" id="about">
         <div class="about-wrapper">
           <div class="mini-wrapper">
             <h3 class="section-title">Sobre Mim</h3>
@@ -110,34 +116,37 @@
           </div>
           <figure>
             <img
-              src="src/images/Avatar_cleanup.png"
+              src="src/images/avatar.png"
               alt="Foto de Marcelo Machado sorrindo."
-              class="photo"
+              class="avatar"
             />
             <div class="text">
               <p>
-                Oi! Meu nome é <span>Marcelo Machado</span> e a tecnologia, de
-                um modo geral, e a programação, mais específicamente, sempre
-                foram meus grandes interesses profissionais.
+                Oi! Eu sou o <span>Marcelo</span> e a tecnologia, de um modo
+                geral, e a programação, mais específicamente, sempre foram meus
+                grandes interesses profissionais.
               </p>
               <p>
                 Porém, por um desses movimentos da vida, sou formado em Direito
                 e servidor público há anos. Por pouco, muito pouco mesmo, não
                 segui na área de tecnologia lá atrás, aos 18 anos, mas essa é
-                uma ótima história pra
-                outra hora.
+                uma ótima história pra outra hora.
               </p>
               <p>
-                O importante, <span>agora</span>, é que nos últimos meses estudei e me
-                preparei como nunca com o
-                <a href="https://www.linkedin.com/school/devquest-dev-em-dobro/" target="_blank"
+                O importante, <span>agora</span>, é que nos últimos meses
+                estudei e me preparei como nunca com o
+                <a
+                  href="https://www.linkedin.com/school/devquest-dev-em-dobro/"
+                  target="_blank"
                   >DevQuest</a
                 >, o curso de <span>Desenvolvimento Web Fullstack</span> do
-                <a href="https://www.youtube.com/c/devemdobro" target="_blank">Dev em Dobro</a>.
+                <a href="https://www.youtube.com/c/devemdobro" target="_blank"
+                  >Dev em Dobro</a
+                >.
               </p>
               <p>
-                Então, anos e anos depois daquele
-                curioso desvio profissional na minha vida, é com <span>imensa felicidade</span> que eu digo:
+                Então, anos e anos depois daquele curioso desvio profissional na
+                minha vida, é com <span>imensa felicidade</span> que eu digo:
                 <span
                   >"ESTOU PRONTO PARA TRABALHAR PARA VOCÊ E SUA EMPRESA!"</span
                 >
@@ -185,18 +194,140 @@
       </section>
 
       <!-- ===== Projects ===== -->
-      <section class="projects">
-        <div class="about-wrapper">
+      <section class="projects" id="projects">
+        <div class="projects-wrapper">
           <div class="mini-wrapper">
-            <h3 class="section-title">Projects</h3>
+            <h3 class="section-title">Projetos</h3>
             <span class="line"></span>
           </div>
-         
+          <p>Confira alguns dos meus projetos recentes:</p>
+          <div class="projects-container">
+            <div class="vertical">
+              <div class="card-wrapper vertical-card">
+                <img
+                  src="src/images/fm-blog-card.png"
+                  alt="Projeto Blog Card"
+                  class="vertical-img"
+                />
+                <div class="card-info">
+                  <h1>Blog Card</h1>
+                  <a
+                    href="https://github.com/msmachado89/Frontend-Mentor-Blog-Preview-Card"
+                    target="_blank"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                  <a
+                    href="https://www.frontendmentor.io/solutions/blog-preview-card-html-css-tXPvVlqc3W"
+                    target="_blank"
+                    ><i class="fas fa-external-link-square-alt"></i
+                  ></a>
+                </div>
+              </div>
+
+              <div class="card-wrapper vertical-card">
+                <img
+                  src="src/images/fm-socials-links.png"
+                  alt="Projeto Social Links"
+                  class="vertical-img"
+                />
+                <div class="card-info">
+                  <h1>Social Links</h1>
+                  <a
+                    href="https://github.com/msmachado89/Frontend-Mentor-Social-Links-Profile"
+                    target="_blank"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                  <a
+                    href="https://www.frontendmentor.io/solutions/social-links-profile-newbie-Oc5wU6DCjS"
+                    target="_blank"
+                    ><i class="fas fa-external-link-square-alt"></i
+                  ></a>
+                </div>
+              </div>
+
+              <div class="card-wrapper vertical-card">
+                <img
+                  src="src/images/fm-nft-card.png"
+                  alt="Projeto Social Links"
+                  class="vertical-img"
+                />
+                <div class="card-info">
+                  <h1>NFT Card</h1>
+                  <a
+                    href="https://github.com/msmachado89/Frontend-Mentor-NFT-preview-card-component"
+                    target="_blank"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                  <a
+                    href="https://www.frontendmentor.io/solutions/nft-preview-card-component-html-css-HOLzz_acbq"
+                    target="_blank"
+                    ><i class="fas fa-external-link-square-alt"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="horizontal">
+              <div class="card-wrapper horizontal-card-1">
+                <img
+                  src="src/images/fm-results-summary.png"
+                  alt="Projeto Resumo de Resultados"
+                  class="horizontal-img"
+                />
+                <div class="card-info">
+                  <h1>Results Summary</h1>
+                  <a
+                    href="https://github.com/msmachado89/Frontend-Mentor-Results-Summary-Component"
+                    target="_blank"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                  <a
+                    href="https://www.frontendmentor.io/solutions/results-summary-component-html-css-aL6BA3blr_"
+                    target="_blank"
+                    ><i class="fas fa-external-link-square-alt"></i
+                  ></a>
+                </div>
+              </div>
+
+              <div class="card-wrapper horizontal-card-2">
+                <img
+                  src="src/images/fm-landing-page.png"
+                  alt="Projeto Página de Recepção"
+                  class="horizontal-img"
+                />
+                <div class="card-info">
+                  <h1>Landing Page</h1>
+                  <a
+                    href="https://github.com/msmachado89/Frontend-Mentor-Huddle-landing-page-with-a-single-introductory-section"
+                    target="_blank"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                  <a
+                    href="https://www.frontendmentor.io/solutions/huddle-landing-page-with-a-single-introductory-section-html-cssht-efAO8QBDmQ"
+                    target="_blank"
+                    ><i class="fas fa-external-link-square-alt"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
       <!-- ===== Contact ===== -->
-      <section class="contact"></section>
+      <section class="contact" id="contact">
+        <section class="contact">
+        <div class="contact-wrapper">
+          <div class="mini-wrapper">
+            <h3 class="section-title">Contato</h3>
+            <span class="line"></span>
+          </div>
+          <h4>Fale comigo agora mesmo!</h4>
+          <p>Entre em contato por qualquer uma das redes abaixo e <span>vamos conversar sobre o seu projeto</span>, sem compromisso!
+          </p>
+          <p>Quem sabe eu te ajudo com uma consultoria ou, melhor ainda, posso vir a integrar a sua equipe? </p>
+          <p>De qualquer forma, será um grande privilégio conhecer o seu trabalho. <span>Sucesso!</span></p>
+
+      </section>
     </main>
 
     <!-- ===== FOOTER ===== -->
