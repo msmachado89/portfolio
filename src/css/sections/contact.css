@@ -64,7 +64,9 @@
   gap: 7rem;
   justify-content: center;
   font-size: 6rem;
+  flex-wrap: wrap;
 }
+
 
 .socials-end a {
   text-decoration: none;
@@ -81,7 +83,16 @@
   transform: translateY(-5px);
   color: var(--clr-highlights);
  }
+ 
 
+ 
+ /* @media (max-width: 950px) {
+  .socials-end {
+    font-size: 5rem;
+
+  } */
+  
+}
 
 
 

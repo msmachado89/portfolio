@@ -72,7 +72,7 @@
   color: var(--clr-primary);
   font-size: 1.8rem;
   line-height: 1.6;
-  max-width: 70%;
+  /* max-width: 70%; */
   /* max-width: calc(100% - 18vw - 20px); */
 }
 
@@ -86,6 +86,9 @@
   align-self: center;
 
  }
+
+ /* .about figure p {
+  max-width: 90%; */
 } 
 
 .about a {
@@ -160,3 +163,6 @@
   margin-right: 2rem;
 }
 
+@media (max-width: 767px) {
+
+}

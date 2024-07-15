@@ -98,7 +98,7 @@
 .horizontal-card-1  {
   min-width: 40rem;
   max-width: 25vw;
-  /* min-height: 33.7rem; */
+  min-height: 33.7rem;
   max-height: 33.7rem;
   
 }
