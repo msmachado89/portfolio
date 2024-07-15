@@ -139,7 +139,6 @@
   min-width: 40rem;
   max-width: 25vw;
   height: 26.6rem;
-  /* align-self: center; */
 }
 
 @media (max-width: 650px) {
