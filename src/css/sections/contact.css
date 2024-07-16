@@ -8,6 +8,15 @@
   display: flex;
 }
 
+@media (max-width: 650px) {
+  .contact-wrapper {
+    
+    max-width: 100%;
+    margin-bottom: 5rem;
+    
+  }
+}
+
 .contact .section-title {
   font-family: var(--ff-primary);
   color: var(--clr-secondary);
@@ -39,7 +48,7 @@
   font-size: 5rem;
   font-weight: 700;
   align-self: center;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 }
 
 @media (max-width: 767px) {
